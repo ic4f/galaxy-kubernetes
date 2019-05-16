@@ -14,7 +14,8 @@ spec:
   hostPath:
     # This is a host specific path where pre-configured Galaxy database files
     # need to reside.
-    path: "/tmp/k8s/volumes/galaxy_postgres"
+    path: "/home/sergey/1volumes/galaxy_postgres"
+    #path: "/tmp/k8s/volumes/galaxy_postgres"
 ---
 kind: PersistentVolumeClaim
 apiVersion: v1
